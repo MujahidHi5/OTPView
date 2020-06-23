@@ -1,13 +1,4 @@
-<h1 align="center">Android PinView/OtpView</h1>
-<p align="center">
-  <a href="https://www.codacy.com/app/mukeshsolanki/android-otpview-pinview?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=mukeshsolanki/android-otpview-pinview&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/ea98277d42924a09b5ae9daa5d10e424"/></a>
-  <a href="https://jitpack.io/#mukeshsolanki/android-otpview-pinview"> <img src="https://jitpack.io/v/mukeshsolanki/android-otpview-pinview/month.svg" /></a>
-  <a href="https://jitpack.io/#mukeshsolanki/android-otpview-pinview"> <img src="https://jitpack.io/v/mukeshsolanki/android-otpview-pinview.svg" /></a>
-  <a href="https://circleci.com/gh/mukeshsolanki/android-otpview-pinview/tree/master"> <img src="https://circleci.com/gh/mukeshsolanki/android-otpview-pinview/tree/master.svg?style=shield" /></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a>
-  <br /><br />
-    A custom control to enter a four digit code usually in cases of authentication.
-</p>
+<h1 align="center">OtpView</h1>
 
 <img src="https://raw.githubusercontent.com/mukeshsolanki/android-otpview-pinview/master/screenshots/ss1.png" width="270" height="480" /> &nbsp;&nbsp;
 <img src="https://raw.githubusercontent.com/mukeshsolanki/android-otpview-pinview/master/screenshots/ss2.png" width="270" height="480" /> &nbsp;&nbsp;
@@ -15,7 +6,7 @@
 
 # Supporting Android PinView/OtpView
 
-Android PinView/OtpView is an independent project with ongoing development and support made possible thanks to donations made by [these awesome backers](BACKERS.md#sponsors). If you'd like to join them, please consider:
+OtpView is an independent project with ongoing development and support made possible thanks to donations made by [these awesome backers](BACKERS.md#sponsors). If you'd like to join them, please consider:
 
 - [Become a backer or sponsor on Patreon](https://www.patreon.com/mukeshsolanki).
 - [One-time donation via PayPal](https://www.paypal.me/mukeshsolanki)
@@ -38,7 +29,7 @@ allprojects {
 Step 2. Add the dependency
 ```java
 dependencies {
-        implementation 'com.github.mukeshsolanki:android-otpview-pinview:<latest-version>'
+         implementation 'com.github.immujahidkhan:OTPView:0.0.1'
 }
 ```
 
@@ -47,7 +38,7 @@ Okay seems like you integrated the library in your project but **how do you use 
 
 ```xml
 .....
- <com.mukesh.OtpView
+ <com.immujahidkhan.OtpView
       android:id="@+id/otp_view"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
